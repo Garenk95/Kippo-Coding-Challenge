@@ -32,10 +32,12 @@ extension TrendingViewController: UICollectionViewDelegate {
 
 extension TrendingViewController: UICollectionViewDataSource {
     
+    //setting the # of cells in collection view
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 15
     }
     
+    //creating and configuring cells
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TrendingGameCollectionViewCell.identifier, for: indexPath) as! TrendingGameCollectionViewCell
@@ -48,12 +50,14 @@ extension TrendingViewController: UICollectionViewDataSource {
 
 extension TrendingViewController: UICollectionViewDelegateFlowLayout {
     
+    //setting size of collection view cells
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         return CGSize(width: 180, height: 250)
         
     }
     
+    //setting insets for the collection view cells
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         
         return UIEdgeInsets(top: 18, left: 18, bottom: 18, right: 18)
