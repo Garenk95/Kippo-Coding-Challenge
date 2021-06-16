@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		908811C0267A59E600E6E161 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908811BF267A59E600E6E161 /* AppDelegate.swift */; };
 		908811C2267A59E600E6E161 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908811C1267A59E600E6E161 /* SceneDelegate.swift */; };
-		908811C4267A59E600E6E161 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908811C3267A59E600E6E161 /* ViewController.swift */; };
 		908811C7267A59E600E6E161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908811C5267A59E600E6E161 /* Main.storyboard */; };
 		908811CA267A59E600E6E161 /* Kippo_Coding_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 908811C8267A59E600E6E161 /* Kippo_Coding_Challenge.xcdatamodeld */; };
 		908811CC267A59E700E6E161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908811CB267A59E700E6E161 /* Assets.xcassets */; };
 		908811CF267A59E700E6E161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908811CD267A59E700E6E161 /* LaunchScreen.storyboard */; };
 		908811DA267A59E700E6E161 /* Kippo_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908811D9267A59E700E6E161 /* Kippo_Coding_ChallengeTests.swift */; };
 		908811E5267A59E700E6E161 /* Kippo_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908811E4267A59E700E6E161 /* Kippo_Coding_ChallengeUITests.swift */; };
+		90881205267A633100E6E161 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90881204267A633100E6E161 /* TrendingViewController.swift */; };
+		9088120A267A635900E6E161 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90881209267A635900E6E161 /* SearchViewController.swift */; };
+		9088120F267A636900E6E161 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088120E267A636900E6E161 /* FavoriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		908811BC267A59E600E6E161 /* Kippo-Coding-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kippo-Coding-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908811BF267A59E600E6E161 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		908811C1267A59E600E6E161 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		908811C3267A59E600E6E161 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		908811C6267A59E600E6E161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		908811C9267A59E600E6E161 /* Kippo_Coding_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kippo_Coding_Challenge.xcdatamodel; sourceTree = "<group>"; };
 		908811CB267A59E700E6E161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		908811E0267A59E700E6E161 /* Kippo-Coding-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kippo-Coding-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908811E4267A59E700E6E161 /* Kippo_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kippo_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
 		908811E6267A59E700E6E161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90881204267A633100E6E161 /* TrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		90881209267A635900E6E161 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9088120E267A636900E6E161 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,14 @@
 			children = (
 				908811BF267A59E600E6E161 /* AppDelegate.swift */,
 				908811C1267A59E600E6E161 /* SceneDelegate.swift */,
-				908811C3267A59E600E6E161 /* ViewController.swift */,
 				908811C5267A59E600E6E161 /* Main.storyboard */,
 				908811CB267A59E700E6E161 /* Assets.xcassets */,
 				908811CD267A59E700E6E161 /* LaunchScreen.storyboard */,
 				908811D0267A59E700E6E161 /* Info.plist */,
 				908811C8267A59E600E6E161 /* Kippo_Coding_Challenge.xcdatamodeld */,
+				90881204267A633100E6E161 /* TrendingViewController.swift */,
+				90881209267A635900E6E161 /* SearchViewController.swift */,
+				9088120E267A636900E6E161 /* FavoriteViewController.swift */,
 			);
 			path = "Kippo-Coding-Challenge";
 			sourceTree = "<group>";
@@ -261,9 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908811C4267A59E600E6E161 /* ViewController.swift in Sources */,
+				9088120A267A635900E6E161 /* SearchViewController.swift in Sources */,
 				908811C0267A59E600E6E161 /* AppDelegate.swift in Sources */,
+				90881205267A633100E6E161 /* TrendingViewController.swift in Sources */,
 				908811C2267A59E600E6E161 /* SceneDelegate.swift in Sources */,
+				9088120F267A636900E6E161 /* FavoriteViewController.swift in Sources */,
 				908811CA267A59E600E6E161 /* Kippo_Coding_Challenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
