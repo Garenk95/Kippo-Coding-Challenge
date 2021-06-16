@@ -18,6 +18,8 @@
 		90881205267A633100E6E161 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90881204267A633100E6E161 /* TrendingViewController.swift */; };
 		9088120A267A635900E6E161 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90881209267A635900E6E161 /* SearchViewController.swift */; };
 		9088120F267A636900E6E161 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088120E267A636900E6E161 /* FavoriteViewController.swift */; };
+		90881215267A6DDF00E6E161 /* TrendingGameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90881213267A6DDF00E6E161 /* TrendingGameCollectionViewCell.swift */; };
+		90881216267A6DDF00E6E161 /* TrendingGameCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90881214267A6DDF00E6E161 /* TrendingGameCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		90881204267A633100E6E161 /* TrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
 		90881209267A635900E6E161 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		9088120E267A636900E6E161 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		90881213267A6DDF00E6E161 /* TrendingGameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingGameCollectionViewCell.swift; sourceTree = "<group>"; };
+		90881214267A6DDF00E6E161 /* TrendingGameCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendingGameCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				90881204267A633100E6E161 /* TrendingViewController.swift */,
 				90881209267A635900E6E161 /* SearchViewController.swift */,
 				9088120E267A636900E6E161 /* FavoriteViewController.swift */,
+				90881213267A6DDF00E6E161 /* TrendingGameCollectionViewCell.swift */,
+				90881214267A6DDF00E6E161 /* TrendingGameCollectionViewCell.xib */,
 			);
 			path = "Kippo-Coding-Challenge";
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 				908811CF267A59E700E6E161 /* LaunchScreen.storyboard in Resources */,
 				908811CC267A59E700E6E161 /* Assets.xcassets in Resources */,
 				908811C7267A59E600E6E161 /* Main.storyboard in Resources */,
+				90881216267A6DDF00E6E161 /* TrendingGameCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90881215267A6DDF00E6E161 /* TrendingGameCollectionViewCell.swift in Sources */,
 				9088120A267A635900E6E161 /* SearchViewController.swift in Sources */,
 				908811C0267A59E600E6E161 /* AppDelegate.swift in Sources */,
 				90881205267A633100E6E161 /* TrendingViewController.swift in Sources */,
