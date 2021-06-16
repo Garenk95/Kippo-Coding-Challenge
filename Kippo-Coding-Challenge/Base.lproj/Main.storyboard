@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Search View Controller-->
         <scene sceneID="E62-TW-orM">
             <objects>
                 <viewController id="Ujk-If-u8k" customClass="SearchViewController" customModule="Kippo_Coding_Challenge" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,13 +19,13 @@
                         <viewLayoutGuide key="safeArea" id="WT3-98-802"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Ksm-dv-Ty4"/>
+                    <tabBarItem key="tabBarItem" title="" image="TabMagIcon" id="Ksm-dv-Ty4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZZD-5v-BMn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-578" y="639"/>
         </scene>
-        <!--Item-->
+        <!--Favorite View Controller-->
         <scene sceneID="cuf-DN-r9y">
             <objects>
                 <viewController id="uPQ-Bc-drj" customClass="FavoriteViewController" customModule="Kippo_Coding_Challenge" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,13 +35,13 @@
                         <viewLayoutGuide key="safeArea" id="lLL-g1-I1i"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="tE8-v0-non"/>
+                    <tabBarItem key="tabBarItem" title="" image="TabStarIcon" id="tE8-v0-non"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GlA-JG-zBu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="119" y="639"/>
         </scene>
-        <!--Item 1-->
+        <!--Trending View Controller-->
         <scene sceneID="qBl-wy-u5o">
             <objects>
                 <viewController id="Vfn-bW-NNU" customClass="TrendingViewController" customModule="Kippo_Coding_Challenge" customModuleProvider="target" sceneMemberID="viewController">
@@ -103,7 +103,7 @@
                             <constraint firstItem="L6q-Ag-ZVy" firstAttribute="top" secondItem="1Vo-9S-s35" secondAttribute="top" constant="39" id="tpq-Rg-EVU"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="fHH-wT-eml"/>
+                    <tabBarItem key="tabBarItem" title="" image="TabArrowIcon" id="fHH-wT-eml"/>
                     <connections>
                         <outlet property="collectionView" destination="L6q-Ag-ZVy" id="Pq7-SZ-5Hf"/>
                     </connections>
@@ -133,6 +133,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="TabArrowIcon" width="38" height="25"/>
+        <image name="TabMagIcon" width="28" height="28"/>
+        <image name="TabStarIcon" width="30" height="28"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
