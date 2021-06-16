@@ -11,7 +11,7 @@
         <!--Item 2-->
         <scene sceneID="E62-TW-orM">
             <objects>
-                <viewController id="Ujk-If-u8k" sceneMemberID="viewController">
+                <viewController id="Ujk-If-u8k" customClass="SearchViewController" customModule="Kippo_Coding_Challenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vzx-fP-DA0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,7 +27,7 @@
         <!--Item-->
         <scene sceneID="cuf-DN-r9y">
             <objects>
-                <viewController id="uPQ-Bc-drj" sceneMemberID="viewController">
+                <viewController id="uPQ-Bc-drj" customClass="FavoriteViewController" customModule="Kippo_Coding_Challenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SjU-hl-szv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
         <!--Item 1-->
         <scene sceneID="qBl-wy-u5o">
             <objects>
-                <viewController id="Vfn-bW-NNU" sceneMemberID="viewController">
+                <viewController id="Vfn-bW-NNU" customClass="TrendingViewController" customModule="Kippo_Coding_Challenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ius-o9-Gxo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
