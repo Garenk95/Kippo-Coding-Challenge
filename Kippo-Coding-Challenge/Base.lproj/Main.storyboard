@@ -8,6 +8,11 @@
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Search View Controller-->
         <scene sceneID="E62-TW-orM">
@@ -50,7 +55,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="L6q-Ag-ZVy">
-                                <rect key="frame" x="0.0" y="83" width="414" height="730"/>
+                                <rect key="frame" x="0.0" y="114" width="414" height="699"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="20" minimumInteritemSpacing="3" id="VQh-vN-4DC">
                                     <size key="itemSize" width="180" height="250"/>
@@ -93,14 +98,35 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="n3W-7A-EEi">
+                                <rect key="frame" x="13.5" y="44" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Lrx-sr-yHz"/>
+                                    <constraint firstAttribute="height" constant="60" id="pxv-Na-4ZD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRENDING GAMES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hZ-cA-UlT">
+                                <rect key="frame" x="96" y="44" width="268" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="268" id="DRv-nl-o8Z"/>
+                                    <constraint firstAttribute="height" constant="60" id="Ldu-jy-UZk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1Vo-9S-s35"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="n3W-7A-EEi" firstAttribute="leading" secondItem="1Vo-9S-s35" secondAttribute="leading" constant="13.5" id="0Hm-Lp-1bH"/>
+                            <constraint firstItem="4hZ-cA-UlT" firstAttribute="leading" secondItem="n3W-7A-EEi" secondAttribute="trailing" constant="22.5" id="0mG-mI-kBm"/>
                             <constraint firstItem="L6q-Ag-ZVy" firstAttribute="trailing" secondItem="1Vo-9S-s35" secondAttribute="trailing" id="TUR-Ui-P2Y"/>
                             <constraint firstItem="L6q-Ag-ZVy" firstAttribute="bottom" secondItem="1Vo-9S-s35" secondAttribute="bottom" id="gEM-Eh-w0d"/>
+                            <constraint firstItem="n3W-7A-EEi" firstAttribute="top" secondItem="1Vo-9S-s35" secondAttribute="top" id="kNl-Wu-EqH"/>
                             <constraint firstItem="L6q-Ag-ZVy" firstAttribute="leading" secondItem="1Vo-9S-s35" secondAttribute="leading" id="og6-XM-SbR"/>
-                            <constraint firstItem="L6q-Ag-ZVy" firstAttribute="top" secondItem="1Vo-9S-s35" secondAttribute="top" constant="39" id="tpq-Rg-EVU"/>
+                            <constraint firstItem="L6q-Ag-ZVy" firstAttribute="top" secondItem="n3W-7A-EEi" secondAttribute="bottom" constant="10" id="tpq-Rg-EVU"/>
+                            <constraint firstItem="4hZ-cA-UlT" firstAttribute="top" secondItem="1Vo-9S-s35" secondAttribute="top" id="vZ4-I8-1Zj"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="TabArrowIcon" id="fHH-wT-eml"/>
@@ -136,11 +162,9 @@
         <image name="TabArrowIcon" width="38" height="25"/>
         <image name="TabMagIcon" width="28" height="28"/>
         <image name="TabStarIcon" width="30" height="28"/>
+        <image name="icon" width="38" height="25"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
